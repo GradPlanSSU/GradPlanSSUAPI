@@ -1,0 +1,39 @@
+[0mGET / [36m304 [0m14.769 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.136 ms - -[0m
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m27.071 ms - -[0m
+[0mGET /course/ [33m403 [0m2.641 ms - 48[0m
+[0mGET /course/?token=abcdef [32m200 [0m3.315 ms - 59[0m
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m5.009 ms - -[0m
+[0mGET /course/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJmbmFtZSI6IkdlcmFsZCIsImxuYW1lIjoiSm9obnNvbiIsInVzZXJfbmFtZSI6IkFub255bW91c1NocmltcCIsInVzZXJfaWNvbl91cmwiOm51bGwsImlhdCI6MTUxMDE4MzI0OCwiZXhwIjoxNTEwMjE5MjQ4fQ.GjvsdR08RE7W_Jty9-fJHInUrhtjkB_9sUoJ4RlPtRo [32m200 [0m3.916 ms - 27[0m
