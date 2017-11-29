@@ -14,7 +14,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var authenticate = require('./model/authentication_dal');
 var course = require('./model/course_dal');
-
+var requirements = require('./model/requirements_dal');
 var app = express();
 
 // view engine setup
@@ -32,7 +32,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/authenticate', authenticate);
-app.use('/course', restrict, course);
+app.use('/courses', restrict, course);
+app.use('/requirements', restrict, requirements);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
@@ -56,7 +57,7 @@ var refresh = new CronJob({
 });
 function restrict(req, res, next){
     var fs = require('fs');
-    var skGradPlanSSU = fs.readFileSync(__dirname + '/keychain/skGradPlanSSU.pem');
+    var skGradPlanSSU = fs.readFileSync(__dirname + '../keychain/skGradPlanSSU.pem');
     var token = req.body.token || req.query['token'] || req.headers['x-access-token'];
     if (token) {
 	jwt.verify(token, skGradPlanSSU, function(err, decoded) {

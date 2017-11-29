@@ -1,0 +1,210 @@
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+TypeError: Cannot read property 'fname' of undefined
+    at /home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:32:36
+    at Query._callback (/home/student/dsornberger/GradPlanSSUAPI/database/connection_manager.js:30:17)
+    at Query.Sequence.end (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query._handleFinalResultPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:139:8)
+    at Query.OkPacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/sequences/Query.js:72:10)
+    at Protocol._parsePacket (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+/home/student/dsornberger/GradPlanSSUAPI/model/course_dal.js:12
+				"course-title" : "Introduction to Computers and Computing"
+				^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:152:10)
+    at Module._compile (module.js:605:28)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/app.js:16:14)
+/home/student/dsornberger/GradPlanSSUAPI/model/course_dal.js:72
+					"CS 210"
+					^^^^^^^^
+
+SyntaxError: Unexpected string
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:152:10)
+    at Module._compile (module.js:605:28)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/app.js:16:14)
+/home/student/dsornberger/GradPlanSSUAPI/model/requirements_dal.js:16
+			"core": 
+			      ^
+
+SyntaxError: Unexpected token :
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:152:10)
+    at Module._compile (module.js:605:28)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/app.js:17:20)
+/home/student/dsornberger/GradPlanSSUAPI/model/course_dal.js:538
+				"vari-units" : [],
+				^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:152:10)
+    at Module._compile (module.js:605:28)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/app.js:16:14)
+fs.js:663
+  return binding.open(pathModule.toNamespacedPath(path),
+                 ^
+
+Error: ENOENT: no such file or directory, open '/home/student/dsornberger/GradPlanSSUAPI/model../../keychain/skGradPlanSSU.pem'
+    at Object.fs.openSync (fs.js:663:18)
+    at Object.fs.readFileSync (fs.js:568:33)
+    at Object.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:9:24)
+    at Module._compile (module.js:641:30)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+module.js:544
+    throw err;
+    ^
+
+Error: Cannot find module '/../database/connection_manager'
+    at Function.Module._resolveFilename (module.js:542:15)
+    at Function.Module._load (module.js:472:25)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/student/dsornberger/GradPlanSSUAPI/model/authentication_dal.js:6:18)
+    at Module._compile (module.js:641:30)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)

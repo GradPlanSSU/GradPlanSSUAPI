@@ -6,7 +6,7 @@ var router = express.Router();
 var connection = require('../database/connection_manager');
 var jwt = require('jsonwebtoken');
 var fs = require('fs');
-var skGradPlanSSU = fs.readFileSync(__dirname + '/../keychain/skGradPlanSSU.pem');
+var skGradPlanSSU = fs.readFileSync(__dirname + '/../../keychain/skGradPlanSSU.pem');
 
 router.post('/login', function(req, res) {
     var query = 'CALL spGetAccountLogin(?, ?)';
@@ -39,8 +39,7 @@ router.post('/login', function(req, res) {
                 expiresIn: "10h"
             });
             returnJson.token = token;
-            res.write(JSON.stringify(returnJson));
-            res.end();
+            res.json(returnJson);
         }
     });
 });
