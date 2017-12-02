@@ -3,7 +3,7 @@ var router = express.Router();
 var connection = require('../database/connection_manager');
 
 router.get('/catalog', function (req, res) {
-		obj = 
+		/*obj = 
 		{
 		"courses" : 
 		[ 
@@ -806,7 +806,7 @@ router.get('/catalog', function (req, res) {
 
 		]
 		};
-		res.json(obj);
+		res.json(obj);*/
 
 });
 router.get('/directory', function (req, res) {

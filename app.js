@@ -57,7 +57,7 @@ var refresh = new CronJob({
 });
 function restrict(req, res, next){
     var fs = require('fs');
-    var skGradPlanSSU = fs.readFileSync(__dirname + '../keychain/skGradPlanSSU.pem');
+    var skGradPlanSSU = fs.readFileSync(__dirname + '/../keychain/skGradPlanSSU.pem');
     var token = req.body.token || req.query['token'] || req.headers['x-access-token'];
     if (token) {
 	jwt.verify(token, skGradPlanSSU, function(err, decoded) {
