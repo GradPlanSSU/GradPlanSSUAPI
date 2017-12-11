@@ -1,0 +1,120 @@
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m31.233 ms - 357[0m
+[0mGET /courses/catalog?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJmbmFtZSI6IkdlcmFsZCIsImxuYW1lIjoiSm9obnNvbiIsInVzZXJfbmFtZSI6IkFub255bW91c1NocmltcCIsInVzZXJfaWNvbl91cmwiOm51bGwsImlhdCI6MTUxMjQzNzg5NSwiZXhwIjoxNTEyNTIwNjk1fQ.XaOUQJvItEhCM9Y0nsQx1Wfy6qqKp_PdsNfntP0n9FE [32m200 [0m158.132 ms - 485860[0m
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m6.700 ms - 357[0m
+[0mGET /courses/catalog?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJmbmFtZSI6IkdlcmFsZCIsImxuYW1lIjoiSm9obnNvbiIsInVzZXJfbmFtZSI6IkFub255bW91c1NocmltcCIsInVzZXJfaWNvbl91cmwiOm51bGwsImlhdCI6MTUxMjQzODAyNSwiZXhwIjoxNTEyNTIwODI1fQ.vxK10koosuiWBQrVdT98B0YJ-sbUfAaTXAPuJI4K0v0 [32m200 [0m146.327 ms - 485860[0m
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m4.416 ms - 357[0m
+[0mGET /courses/catalog?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJmbmFtZSI6IkdlcmFsZCIsImxuYW1lIjoiSm9obnNvbiIsInVzZXJfbmFtZSI6IkFub255bW91c1NocmltcCIsInVzZXJfaWNvbl91cmwiOm51bGwsImlhdCI6MTUxMjQzODI1NiwiZXhwIjoxNTEyNTIxMDU2fQ.1UZgaotx99ibOVJ4R598RuNVNp0OHR4cSlMeM5bfryg [32m200 [0m137.668 ms - 485860[0m
+[0mGET http://dx.doi.org/ [32m200 [0m8.657 ms - 207[0m
+[0mGET / [32m200 [0m3.293 ms - 207[0m
+[0mGET /favicon.ico [33m404 [0m2.095 ms - 1096[0m
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m38.431 ms - 357[0m
+[0mGET /courses/catalog?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJmbmFtZSI6IkdlcmFsZCIsImxuYW1lIjoiSm9obnNvbiIsInVzZXJfbmFtZSI6IkFub255bW91c1NocmltcCIsInVzZXJfaWNvbl91cmwiOm51bGwsImlhdCI6MTUxMjUwODUyNCwiZXhwIjoxNTEyNTkxMzI0fQ.LXxe8ktvgVeahX82VeP9Sn-dVvcgrZGkdHCIMRgPyWc [32m200 [0m139.932 ms - 485860[0m
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m3.161 ms - 357[0m
+[0mGET /courses/catalog?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJmbmFtZSI6IkdlcmFsZCIsImxuYW1lIjoiSm9obnNvbiIsInVzZXJfbmFtZSI6IkFub255bW91c1NocmltcCIsInVzZXJfaWNvbl91cmwiOm51bGwsImlhdCI6MTUxMjUwODY1OSwiZXhwIjoxNTEyNTkxNDU5fQ.2PeLAjL9h_-9KlfjTKbUa_QaMtqnGEcOMNvpKd0KT_U [32m200 [0m143.615 ms - 485860[0m
+[ 'AnonymousShrimp', '123abc' ]
+[ [ RowDataPacket {
+      user_id: 1,
+      fname: 'Gerald',
+      lname: 'Johnson',
+      user_name: 'AnonymousShrimp',
+      user_icon_url: null } ],
+  OkPacket {
+    fieldCount: 0,
+    affectedRows: 0,
+    insertId: 0,
+    serverStatus: 2,
+    warningCount: 0,
+    message: '',
+    protocol41: true,
+    changedRows: 0 } ]
+[0mPOST /authenticate/login [32m200 [0m3.631 ms - 357[0m
+[0mGET /courses/catalog?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJmbmFtZSI6IkdlcmFsZCIsImxuYW1lIjoiSm9obnNvbiIsInVzZXJfbmFtZSI6IkFub255bW91c1NocmltcCIsInVzZXJfaWNvbl91cmwiOm51bGwsImlhdCI6MTUxMjUxNDgzOSwiZXhwIjoxNTEyNTk3NjM5fQ.unIHkldgN467I8FZ9V49l2WBelNv7RyyQQiAm9V2PNg [32m200 [0m130.341 ms - 485860[0m
+[0mGET / [32m200 [0m1.565 ms - 207[0m
+[0mGET / [32m200 [0m1.059 ms - 207[0m
+[0mGET /favicon.ico [33m404 [0m2.395 ms - 1096[0m
+[0mGET / [32m200 [0m111.555 ms - 207[0m
+[0mGET / [32m200 [0m1.894 ms - 207[0m
+[0mGET / [32m200 [0m1.902 ms - 207[0m
+[0mGET / [32m200 [0m1.656 ms - 207[0m
+[0mGET / [32m200 [0m1.725 ms - 207[0m
+[0mGET / [32m200 [0m1.291 ms - 207[0m

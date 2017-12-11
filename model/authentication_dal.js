@@ -9,10 +9,10 @@ var fs = require('fs');
 var skGradPlanSSU = fs.readFileSync(__dirname + '/../../keychain/skGradPlanSSU.pem');
 
 router.post('/login', function(req, res) {
-    var query = 'CALL spGetAccountLogin(?, ?)';
+    var query = 'CALL spGradPlanAccountLogin(?, ?)';
 
-    var userName = req.body.username;
-    var password = req.body.password;
+    var userName = req.body.fullname;
+    var password = req.body.student_id;
     var queryParams = [userName, password];
     console.log(queryParams);
     connection.query(query, queryParams, function (err, result) {
@@ -29,19 +29,51 @@ router.post('/login', function(req, res) {
 	    console.log(result);
             var userData = result[0][0];
             var returnJson = {
-                "fname" : userData.fname,
-                "lname" : userData.lname,
-                "user_name" : userData.user_name,
-                "user_icon_url" : userData.user_icon_url,
+                "fname" : userData.student_fName,
+                "lname" : userData.student_lName,
+		"mname" : userData.student_mName,
+                "student_id" : userData.student_id,
                 "token" : ""
             };
             var token = jwt.sign(result[0][0], skGradPlanSSU, {
-                expiresIn: "10h"
+                expiresIn: "23h"
             });
             returnJson.token = token;
             res.json(returnJson);
         }
     });
 });
+router.post('/tokenlogin', function(req, res) {
+    var fs = require('fs');
+    var skGradPlanSSU = fs.readFileSync(__dirname + '/../../keychain/skGradPlanSSU.pem');
+    var token = req.body.token || req.query['token'] || req.headers['x-access-token'];
+    if (token) {
+	jwt.verify(token, skGradPlanSSU, function(err, decoded) {
+            if (err) {
+                return res.json({ success: false, message: 'Failed to authenticate token.' });
+            } else {
+                var userData = decoded;
+            	var returnJson = {
+                	"fname" : userData.student_fName,
+                	"lname" : userData.student_lName,
+			"mname" : userData.student_mName,
+                	"student_id" : userData.student_id,
+                	"token" : ""
+            	};
+		var token = jwt.sign(decoded, skGradPlanSSU, {
+		});
+		returnJson.token = token;
+		res.json(returnJson);
+            }
+        });
 
+    } else {
+	return res.status(403).send({
+            success: false,
+            message: 'No token provided.'
+        });
+
+    }
+    
+});
 module.exports = router;
