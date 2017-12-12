@@ -2,7 +2,7 @@
  * Created by Snore Train on 4/7/2017.
  */
 var mysql = require('mysql');
-var db = require('./db_connection');
+var db = require('./../../db_connection');
 var pool = mysql.createPool(db.config);
 
 module.exports = {
